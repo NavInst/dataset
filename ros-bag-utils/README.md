@@ -5,6 +5,12 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Scripts Overview](#scripts-overview)
+    - [trim_bag_by_time_or_offset.ipynb] (#trim_bag_by_time_or_offsetipynb)
+    - [combine_topics_from_multiple_bags.ipynb](#combine_topics_from_multiple_bagsipynb)
+    - [extract_topics_from_bag.ipynb](#extract_topics_from_bagipynb)
+    - [extract_image_topics_from_bag.ipynb](#extract_image_topics_from_bagipynb)
+    - [extract_pointcloud2_topics_from_bags.ipynb](#extract_pointcloud2_topics_from_bagsipynb)
+    
 - [Contributing](#contributing)
 
 ## Installation
@@ -19,6 +25,17 @@ To use the scripts in this repository, you'll need Python with ROS Noetic is ins
 
 ## Scripts Overview
 
+### `trim_bag_by_time_or_offset.ipynb`
+This notebook allows you to trim a ROS bag file by specifying a start time, either as a UNIX timestamp or as an offset from the bag's start time, and a duration. The resulting trimmed data is saved into a new ROS bag file, making it useful for isolating specific segments of data for focused analysis.
+
+To use this script, modify the following configuration in the notebook:
+- **`bag_file`**: Specify the path to the input ROS bag file that you want to trim.
+- **`output_bag_file`**: Define the path where the trimmed ROS bag file will be saved.
+- **`start_unix_time`**: (Optional) Specify the start time in UNIX time. 
+- **`start_time_offset`**: (Optional) Specify the start time as an offset in seconds from the beginning of the bag. 
+- **`duration_seconds`**: Set the duration for which the data should be trimmed. 
+_______________________
+
 ### `combine_topics_from_multiple_bags.ipynb`
 
 This notebook enables you to merge specific topics from multiple ROS bag files into a single output bag, facilitating simultaneous analysis of data that is split across different bags.
@@ -27,6 +44,8 @@ To use this script, modify the following configuration in the notebook:
 - **`main_path`**: Specify the directory where all your ROS bags are stored.
 - **`bags_and_topics`**: Define a dictionary with each bag file as the key and a list of topics you want to merge from that bag.
 - **`output_bag_path`**: Set the path for the newly created merged bag file.
+
+_______________________
 
 ### `extract_topics_from_bag.ipynb`
 
@@ -37,6 +56,7 @@ To use this script, modify the following configuration in the notebook:
 - **`topics`**: List the topics you wish to extract from the bag. Each topic's data will be saved in a separate CSV file.
 - **`out_folder`**: Define the directory where the CSV files will be saved. The script will automatically create a CSV file for each topic listed.
 
+_______________________
 
 ### `extract_image_topics_from_bag.ipynb`
 
@@ -65,6 +85,7 @@ oak_image_raw_color_compressed/
     ├── [NANOSECOND_UNIX_TIME_2].jpg
     ├── ...
 ```
+_______________________
 
 ### `extract_pointcloud2_topics_from_bags.ipynb`
 
@@ -95,7 +116,7 @@ velodyne_lidar_points/
     ├── ...
 ```
 
-
+_______________________
 
 
 
