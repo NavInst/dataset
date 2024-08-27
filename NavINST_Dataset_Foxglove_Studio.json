@@ -1,0 +1,727 @@
+{
+  "configById": {
+    "Image!1wq1h": {
+      "foxglovePanelTitle": "ZED X Left (Left)",
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/zedx_left/camera_left/image_raw_color/compressed"
+      }
+    },
+    "Image!2fdhhcu": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/zedx_left/camera_right/image_raw_color/compressed"
+      },
+      "foxglovePanelTitle": "ZED X Left (Right)"
+    },
+    "Image!29a71d4": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/oak/image_raw_color/compressed"
+      },
+      "foxglovePanelTitle": "OAK"
+    },
+    "Image!2o9iljv": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/zedx_right/camera_left/image_raw_color/compressed"
+      },
+      "foxglovePanelTitle": "ZED X Right (Left)"
+    },
+    "Image!1kjfkk9": {
+      "cameraState": {
+        "distance": 20,
+        "perspective": true,
+        "phi": 60,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 45,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "topics": {},
+      "layers": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {
+        "imageTopic": "/zedx_right/camera_right/image_raw_color/compressed"
+      },
+      "foxglovePanelTitle": "ZED X Right (Right)"
+    },
+    "3D!24v7m9c": {
+      "cameraState": {
+        "distance": 93.179813527595,
+        "perspective": true,
+        "phi": 50.20883924234976,
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOffset": [
+          -0.042270211392465576,
+          0.02723466089368437,
+          7.299315813654629e-17
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "thetaOffset": 0.5781226436288587,
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000,
+        "logDepth": false
+      },
+      "followMode": "follow-none",
+      "followTf": "novatel_imu_link",
+      "scene": {
+        "syncCamera": false,
+        "labelScaleFactor": 1.1,
+        "enableStats": false
+      },
+      "transforms": {},
+      "topics": {
+        "/velodyne/lidar/points": {
+          "visible": true,
+          "colorField": "z",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 2,
+          "decayTime": 0,
+          "flatColor": "#00ffffff"
+        },
+        "/livox/lidar/points": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#ff00ffff",
+          "stixelsEnabled": false
+        },
+        "/smartmicro/radar/front_left": {
+          "visible": true,
+          "colorField": "z",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#ffed00ff",
+          "pointSize": 8,
+          "stixelsEnabled": true
+        },
+        "/smartmicro/radar/front_right": {
+          "visible": true,
+          "stixelsEnabled": true,
+          "colorField": "z",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#ff0000ff",
+          "pointSize": 8
+        },
+        "/smartmicro/radar/rear_left": {
+          "visible": true,
+          "colorField": "z",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "flatColor": "#0000ffff",
+          "stixelsEnabled": true,
+          "pointSize": 8
+        },
+        "/smartmicro/radar/rear_right": {
+          "visible": true,
+          "colorField": "z",
+          "colorMode": "flat",
+          "colorMap": "turbo",
+          "pointSize": 8,
+          "flatColor": "#00ff00ff",
+          "stixelsEnabled": true
+        }
+      },
+      "layers": {
+        "grid": {
+          "visible": false,
+          "frameLocked": true,
+          "label": "Grid",
+          "instanceId": "d50b0b13-2ab0-4d4c-810f-fc9f703587fc",
+          "layerId": "foxglove.Grid",
+          "size": 10,
+          "divisions": 10,
+          "lineWidth": 1,
+          "color": "#248eff",
+          "position": [
+            0,
+            0,
+            0
+          ],
+          "rotation": [
+            0,
+            0,
+            0
+          ]
+        }
+      },
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "imageMode": {}
+    },
+    "map!1peowj0": {
+      "zoomLevel": 18,
+      "center": {
+        "lat": 44.238514699999996,
+        "lon": -76.5004153
+      },
+      "customTileUrl": "",
+      "disabledTopics": [],
+      "followTopic": "/xsens/gnss",
+      "layer": "map",
+      "topicColors": {},
+      "maxNativeZoom": 18,
+      "topicConfig": {
+        "/xsens/gnss": {
+          "historyMode": "all",
+          "pointDisplayMode": "pin"
+        }
+      },
+      "foxglovePanelTitle": "Xsens"
+    },
+    "Gauge!iyp5v9": {
+      "path": "/obd2/speed.data",
+      "minValue": 0,
+      "maxValue": 50,
+      "colorMap": "red-yellow-green",
+      "colorMode": "colormap",
+      "gradient": [
+        "#0000ff",
+        "#ff00ff"
+      ],
+      "reverse": true,
+      "foxglovePanelTitle": "Odometer"
+    },
+    "Plot!17vy4fd": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/novatel/gps.status.satellites_used",
+          "enabled": true,
+          "color": "#0000ff",
+          "label": "Satellites Used",
+          "lineSize": 2
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/novatel/gps.status.satellites_visible",
+          "enabled": true,
+          "color": "#ff0000",
+          "label": "Sattelites Visible",
+          "lineSize": 2
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": true,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Novatel PwrPak7",
+      "followingViewWidth": 60
+    },
+    "Plot!3a2qbqe": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.linear_acceleration.x",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.linear_acceleration.x",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.linear_acceleration.x",
+          "enabled": true,
+          "color": "#0000ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.linear_acceleration.x",
+          "enabled": true,
+          "color": "#ff00ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "fx",
+      "followingViewWidth": 10
+    },
+    "Plot!1gs6rvs": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.linear_acceleration.y",
+          "enabled": true,
+          "color": "#ff00ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.linear_acceleration.y",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.linear_acceleration.y",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.linear_acceleration.y",
+          "enabled": true,
+          "color": "#0000ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "fy",
+      "followingViewWidth": 10
+    },
+    "Plot!4ehumwk": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.linear_acceleration.z",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.linear_acceleration.z",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.linear_acceleration.z",
+          "enabled": true,
+          "color": "#0000ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.linear_acceleration.z",
+          "enabled": true,
+          "color": "#ff00ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "fz",
+      "followingViewWidth": 10
+    },
+    "Plot!1eig8go": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.angular_velocity.x",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.angular_velocity.x",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.angular_velocity.x",
+          "enabled": true,
+          "color": "#0000ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.angular_velocity.x",
+          "enabled": true,
+          "color": "#ff00ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "wx",
+      "followingViewWidth": 10
+    },
+    "Plot!3gusrdg": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.angular_velocity.y",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.angular_velocity.y",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.angular_velocity.y",
+          "enabled": true,
+          "color": "#0000ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.angular_velocity.y",
+          "enabled": true,
+          "color": "#ff00ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "wy",
+      "followingViewWidth": 10
+    },
+    "Plot!xo8oaa": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/xsens/imu.angular_velocity.z",
+          "enabled": true,
+          "color": "#00ff00"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_left/imu.angular_velocity.z",
+          "enabled": true,
+          "color": "#ff0000"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/zedx_right/imu.angular_velocity.z",
+          "enabled": true,
+          "color": "#0000ff"
+        },
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/livox/imu.angular_velocity.z",
+          "enabled": true,
+          "color": "#ff00ff"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "wz",
+      "followingViewWidth": 10
+    },
+    "SourceInfo!709yyh": {},
+    "Tab!3z3ukb6": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "Visualization",
+          "layout": {
+            "first": {
+              "first": "Image!1wq1h",
+              "second": {
+                "first": "Image!2fdhhcu",
+                "second": {
+                  "first": "Image!29a71d4",
+                  "second": {
+                    "first": "Image!2o9iljv",
+                    "second": "Image!1kjfkk9",
+                    "direction": "row",
+                    "splitPercentage": 49.64705882352941
+                  },
+                  "direction": "row",
+                  "splitPercentage": 32.89473684210527
+                },
+                "direction": "row",
+                "splitPercentage": 24.37449556093624
+              },
+              "direction": "row",
+              "splitPercentage": 19.922847376154387
+            },
+            "second": {
+              "first": "3D!24v7m9c",
+              "second": {
+                "first": {
+                  "first": "map!1peowj0",
+                  "second": "Gauge!iyp5v9",
+                  "direction": "row"
+                },
+                "second": "Plot!17vy4fd",
+                "direction": "column"
+              },
+              "direction": "row"
+            },
+            "direction": "column",
+            "splitPercentage": 18.698397280233124
+          }
+        },
+        {
+          "title": "IMUs",
+          "layout": {
+            "first": {
+              "first": "Plot!3a2qbqe",
+              "second": {
+                "first": "Plot!1gs6rvs",
+                "second": "Plot!4ehumwk",
+                "direction": "row"
+              },
+              "direction": "row",
+              "splitPercentage": 33.86927496402411
+            },
+            "second": {
+              "first": "Plot!1eig8go",
+              "second": {
+                "first": "Plot!3gusrdg",
+                "second": "Plot!xo8oaa",
+                "direction": "row"
+              },
+              "direction": "row",
+              "splitPercentage": 33.91504143986433
+            },
+            "direction": "column"
+          }
+        },
+        {
+          "title": "Messages",
+          "layout": "SourceInfo!709yyh"
+        }
+      ]
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Tab!3z3ukb6"
+}
