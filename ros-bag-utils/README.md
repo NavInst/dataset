@@ -5,7 +5,7 @@
 ## Table of Contents
 - [Installation](#installation)
 - [Scripts Overview](#scripts-overview)
-    - [trim_bag_by_time_or_offset.ipynb] (#trim_bag_by_time_or_offsetipynb)
+    - [trim_bag_by_time_or_offset.ipynb](#trim_bag_by_time_or_offsetipynb)
     - [combine_topics_from_multiple_bags.ipynb](#combine_topics_from_multiple_bagsipynb)
     - [extract_topics_from_bag.ipynb](#extract_topics_from_bagipynb)
     - [extract_image_topics_from_bag.ipynb](#extract_image_topics_from_bagipynb)
