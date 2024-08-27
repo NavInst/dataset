@@ -6,6 +6,7 @@ The `navinst.dataset` repository is a collection of tools and utilities designed
 ## Table of Contents
 - [Instructions](#instructions)
 - [Overview](#overview)
+- [The Dataset](#the-dataset)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -23,6 +24,24 @@ This repository is divided into the following subfolders:
 - **`visualization`**: Provides data visualization capabilties, helping users to better interpret the NavINST dataset.
 
 
+## The Dataset
+
+The NavINST dataset can be accessed at [https://navinst.github.io/](https://navinst.github.io/).
+
+If you use our work or the dataset in your research, please cite our paper:
+
+```bibtex
+@article{navinst2024,
+  author    = {Author Name and Another Author},
+  title     = {Title of the Paper},
+  journal   = {Journal Name},
+  year      = {2024},
+  volume    = {12},
+  number    = {34},
+  pages     = {567-589},
+  doi       = {10.1234/journalname.2024.56789},
+}
+```
 
 
 ## Contributing
