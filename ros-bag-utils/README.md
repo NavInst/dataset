@@ -48,17 +48,6 @@ To use this script, modify the following configuration in the notebook:
 - **`topics`**: List the image topics you wish to extract from the bag. The script will create a separate folder for each topic.
 - **`out_folder`**: Define the directory where the output folders and images will be saved. Each topic will have its own subfolder.
 
-
-### `extract_image_topics_from_bag.ipynb`
-
-This notebook extracts image topics from a ROS bag and saves the images as files, making it particularly useful for visualizing or processing image data outside of ROS.
-
-To use this script, modify the following configuration in the notebook:
-
-- **`bag_file`**: Specify the path to the ROS bag file that contains the image topics you want to extract.
-- **`topics`**: List the image topics you wish to extract from the bag. The script will create a separate folder for each topic.
-- **`out_folder`**: Define the directory where the output folders and images will be saved. Each topic will have its own subfolder.
-
 For each topic, the script creates:
 
 1. **A Subfolder**: Named based on the topic.
