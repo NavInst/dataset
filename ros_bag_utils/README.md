@@ -1,4 +1,4 @@
-# ROS Bag Utilities (`ros-bag-utils`)
+# ROS Bag Utilities (`ros_bag_utils`)
 
 `ros-bag-utils` is a collection of Python scripts/notebooks designed to help you efficiently process and manage ROS bag files. Whether you need to combine topics from multiple bags, extract specific topics, or handle image and PointCloud2 data, this toolkit provides the utilities to make your workflow smoother.
 
