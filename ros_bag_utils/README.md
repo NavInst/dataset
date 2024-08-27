@@ -1,9 +1,9 @@
 # ROS Bag Utilities (`ros_bag_utils`)
 
-`ros-bag-utils` is a collection of Python scripts/notebooks designed to help you efficiently process and manage ROS bag files. Whether you need to combine topics from multiple bags, extract specific topics, or handle image and PointCloud2 data, this toolkit provides the utilities to make your workflow smoother.
+`ros-bag-utils` is a collection of Python scripts/notebooks designed to help you efficiently process and manage ROS bag files. Whether you need to combine topics from multiple bags, extract specific topics, or handle image and PointCloud2 data, this toolkit provides the utilities to make your workflow smoother. These tools can be used with any ROS bag files, and not limited to the NavINST dataset.
 
 ## Table of Contents
-- [Installation](#installation)
+- [Instructions](#instructions)
 - [Scripts Overview](#scripts-overview)
     - [trim_bag_by_time_or_offset.ipynb](#trim_bag_by_time_or_offsetipynb)
     - [combine_topics_from_multiple_bags.ipynb](#combine_topics_from_multiple_bagsipynb)
@@ -11,11 +11,9 @@
     - [extract_image_topics_from_bag.ipynb](#extract_image_topics_from_bagipynb)
     - [extract_pointcloud2_topics_from_bags.ipynb](#extract_pointcloud2_topics_from_bagsipynb)
     
-- [Contributing](#contributing)
+## Instructions
 
-## Installation
-
-To use the scripts in this repository, you'll need Python with ROS Noetic is installed, along with the necessary dependencies for handling ROS bags. Ensure you have the following installed:
+To use these scripts, you'll need Python with ROS Noetic installed, along with the necessary dependencies for handling ROS bags. Ensure you have the following installed:
 
 - `rosbag`
 - `rospy`
@@ -115,14 +113,5 @@ velodyne_lidar_points/
     ├── [NANOSECOND_UNIX_TIME_2].pcd
     ├── ...
 ```
-
-_______________________
-
-
-
-
-
-## Contributing
-Contributions are welcome! If you have improvements, bug fixes, or additional utilities to add, please fork the repository, make your changes, and submit a pull request.
 
 
